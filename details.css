@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+header nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header .auth-cart {
+    display: flex;
+    gap: 30px;
+}
+
+
+header .cart {
+    position: relative;
+}
+
+
+#product-details {
+    margin-top: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+#product-details img {
+    width: 300px;
+    height: 300px;
+}
+.product{
+    display: flex;
+    gap: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.des{
+    font-size: 20px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: x;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+}

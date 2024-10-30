@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ecommerce</a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-cart">
+            <a href="#"><button><i class="fa-solid fa-right-to-bracket"></i>Login</button></a>
+            <a href="#"><button><i class="fa-solid fa-user-plus"></i>Register</button></a>
+            <a href="cart.html"><button><i class="fa-solid fa-cart-shopping"></i>Cart (<span id="cart-count">0</span>)</button></a>
+        </div>
+    </header>
+
+    
+
+    <section>
+        <div class="banner"><img src="./assets/main.png.jpg" alt="image">
+        </div>
+       <div class="text">
+        <p style="font-size: 50px;">New Season Arrivals</p>
+        <p style="font-size: 30px;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       </div>
+    </section>
+
+    <section class="products">
+        <br>
+        <br>
+        <h2>Latest Products</h2>
+        <br>
+        <hr>
+        <br><br><br>
+        <div id="product-filters">
+            <button onclick="filterProducts('all')">All</button>
+            <button onclick="filterProducts('electronics')">Electronics</button>
+            <button onclick="filterProducts('jewelery')">Jewelery</button>
+            <button onclick="filterProducts('men\'s clothing')">Men's Clothing</button>
+            <button onclick="filterProducts('women\'s clothing')">Women's Clothing</button>
+        </div>
+        <br><br>
+        <div id="product-list">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart" style="color: #ff0a0a;"></i> by GEETHA SANABOINA</p>
+    </footer>
+
+    <script src="./app.js"></script>
+    <!-- <script src="./details.js"></script> -->
+</body>
+</html>
+
+ 

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 10px 10px;
+
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+header nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header .auth-cart {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+header .auth-cart a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+header .cart {
+    position: relative;
+}
+
+
+button{
+    border-radius: 5px;
+    padding: 7px 7px;
+}
+.btn  button{
+    border-radius: 5px;
+    padding: 7px 7px;
+    background-color: white;
+   
+}
+
+.auth-cart button:hover{
+    background-color: black;
+    color: white;
+}
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+.item-list {
+    width: 55%;
+    
+}
+.order-summary {
+    width: 30%;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 5px;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.cart-item img {
+    width: 80px;
+    margin-right: 15px;
+}
+.cart-item-details h4 {
+    margin: 0 0 5px 0;
+}
+
+
+.cart-item-details{
+    display: flex;
+}
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.quantity-controls button {
+    background: none;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.quantity-controls span {
+    margin: 0 10px;
+}
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.order-summary button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.order-summary{
+    position: relative;
+    height: 200px;
+}
+
+#cart-items{
+    display: flex;
+    gap: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
